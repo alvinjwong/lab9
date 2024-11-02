@@ -19,13 +19,7 @@ class MyString {
 
     MyString operator+(MyString& other);
     friend std::ostream& operator<<(std::ostream& os, MyString& str);
-    bool operator=(MyString& other);
-    bool operator<(MyString& other);
-    bool operator>(MyString& other);
-    bool operator<=(MyString& other);
-    bool operator>=(MyString& other);
-    bool operator==(MyString& other);
-    bool operator!=(MyString& other);
+    
 };
 
 #endif mystring.h
