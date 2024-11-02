@@ -1,7 +1,7 @@
 #include "mystring.h"
 #include <cstring>
 
-MyString::MyString(char* str) {
+MyString::MyString(const char* str) {
     len = strlen(str);
     data = new char[len+1];
     strncpy(data, str, len);
