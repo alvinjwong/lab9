@@ -48,4 +48,33 @@ MyString::MyString(char* str) {
         return result;
     }
 
+    std::ostream& operator<<(std::ostream& os, MyString& str) {
+        os << str.data;
+        return os;
+    }
+
+    bool MyString::operator==(MyString& other) {
+        return strcmp(data, other.data) == 0;
+    }
+
+    bool MyString::operator>=(MyString& other) {
+        return strcmp(data, other.data) >= 0;
+    }
+
+    bool MyString::operator<=(MyString& other) {
+        return strcmp(data, other.data) <= 0;
+    }
+
+    bool MyString::operator!=(MyString& other) {
+        return strcmp(data, other.data) != 0;
+    }
+
+    bool MyString::operator>(MyString& other) {
+        return strcmp(data, other.data) > 0;
+    }
+
+    bool MyString::operator<(MyString& other) {
+        return strcmp(data, other.data) < 0;
+    }
+
 
