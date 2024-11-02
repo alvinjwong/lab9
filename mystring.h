@@ -1,5 +1,5 @@
-#ifndef mystring.h
-#define mystring.h
+#ifndef MYSTRING_H
+#define MYSTRING_H
 
 
 #include <iostream>
