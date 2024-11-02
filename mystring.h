@@ -28,4 +28,4 @@ class MyString {
     bool operator!=(MyString& other);
 };
 
-#endif mystring.h
+#endif
