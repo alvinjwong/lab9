@@ -1,6 +1,7 @@
 #include "mystring.h"
 #include <cstring>
 
+
 MyString::MyString(const char* str) {
     len = strlen(str);
     data = new char[len+1];

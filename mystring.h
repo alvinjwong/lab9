@@ -4,6 +4,7 @@
 
 #include <iostream>
 
+
 class MyString {
     private:
     char* data;
