@@ -10,7 +10,7 @@ class MyString {
     int len;
 
     public:
-    MyString(char* str);
+    MyString(const char* str);
     ~MyString();
 
     std::string ToString();
